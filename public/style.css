@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+      Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  }
+  
+  p {
+    margin: 0px;
+  }
+  
+  a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  small {
+    color: #828282;
+  }
+  
+  header {
+    background-color: rgb(199, 159, 39);
+    color: #fff;
+    padding: 10px 3px;
+  }
+  
+  .nominees {
+    background-color: #f6f6ef;
+    width: auto;
+    padding: 10px 0px;
+  }
+  
+  .nominee {
+    padding: 0px 5px 25px;
+  }
+  
+  .button {
+    font-size: 10px;
+    margin-left: 0em;  
+  }
+
+  .result {
+    color: rgb(199, 159, 39);
+  }
+  
+  .nominees > p {
+    margin: 10px;
+  }
+  
+  .nominees > p.title {
+    font-weight: bold;
+    margin-bottom: 25px;
+  }
+  
+  .nominees > p.title > small {
+    font-weight: normal;
+  }
+
